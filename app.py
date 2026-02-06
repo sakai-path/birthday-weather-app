@@ -12,3 +12,10 @@ birthday = st.date_input(
 )
 
 st.write("選択された日付:", birthday)
+
+city = st.selectbox(
+    "生まれた場所",
+    ["東京", "大阪", "札幌", "福岡", "那覇"]
+)
+
+st.write("選択された都市:", city)
